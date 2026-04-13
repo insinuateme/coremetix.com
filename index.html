@@ -20,41 +20,17 @@
         .logo-wrap {
             text-align: center;
         }
-        .logo-wrap svg {
-            width: 360px;
+        .logo-wrap img {
+            width: 480px;
+            max-width: 90vw;
             height: auto;
+            display: block;
         }
     </style>
 </head>
 <body>
     <div class="logo-wrap">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380">
-            <defs>
-                <linearGradient id="leafLeft" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#0d2750"/>
-                    <stop offset="100%" stop-color="#1f4a88"/>
-                </linearGradient>
-                <linearGradient id="leafRight" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#6fb6ef"/>
-                    <stop offset="100%" stop-color="#2f7ed0"/>
-                </linearGradient>
-                <linearGradient id="leafOverlap" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#15315e"/>
-                    <stop offset="100%" stop-color="#214f8c"/>
-                </linearGradient>
-            </defs>
-            <g transform="translate(250 140)">
-                <path d="M 0 115 C -120 115 -140 -20 -20 -115 C -20 -115 5 -60 5 20 C 5 75 0 115 0 115 Z"
-                      fill="url(#leafLeft)"/>
-                <path d="M 0 115 C 120 115 140 -20 20 -115 C 20 -115 -5 -60 -5 20 C -5 75 0 115 0 115 Z"
-                      fill="url(#leafRight)"/>
-                <path d="M -20 -115 C -20 -115 5 -60 5 20 C 5 75 0 115 0 115 C 0 115 -5 75 -5 20 C -5 -60 20 -115 20 -115 C 5 -125 -5 -125 -20 -115 Z"
-                      fill="url(#leafOverlap)"/>
-            </g>
-            <text x="250" y="335" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="68" font-weight="300" letter-spacing="-1">
-                <tspan fill="#112a57">coremet</tspan><tspan fill="#2f7ed0">ix</tspan>
-            </text>
-        </svg>
+        <img src="logo.png" alt="Coremetix">
     </div>
 </body>
 </html>
